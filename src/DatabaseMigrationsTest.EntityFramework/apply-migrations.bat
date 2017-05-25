@@ -1,0 +1,2 @@
+copy ..\packages\EntityFramework.6.1.3\tools\migrate.exe bin\Debug\
+bin\Debug\migrate.exe DatabaseMigrationsTest.EntityFramework.dll /connectionString="Server=.;Database=Migrations_EntityFramework;Integrated Security=true" /connectionProviderName="System.Data.SqlClient"

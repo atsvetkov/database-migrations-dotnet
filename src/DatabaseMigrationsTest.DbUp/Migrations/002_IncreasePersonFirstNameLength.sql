@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[Person] ALTER COLUMN [FirstName] NVARCHAR(500)
